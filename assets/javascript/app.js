@@ -64,7 +64,7 @@ $(document).ready(function() {
   }
   
   function generateHTML() {
-    gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
+    gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>10</span></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
     $(".mainArea").html(gameHTML);
   }
   
@@ -72,7 +72,7 @@ $(document).ready(function() {
     if (questionCounter < 7) {
     questionCounter++;
     generateHTML();
-    counter = 30;
+    counter = 10;
     timerWrapper();
     }
     else {
@@ -104,14 +104,14 @@ $(document).ready(function() {
     correctTally = 0;
     incorrectTally = 0;
     unansweredTally = 0;
-    counter = 30;
+    counter = 10;
     generateHTML();
     timerWrapper();
   }
   
   var startScreen;
   var gameHTML;
-  var counter = 30;
+  var counter = 10;
 
   var questionArray = [
     "What did Peggy Carter promise to Steve Rogers (Captain America) before he crashed Red Skull's bomber?",

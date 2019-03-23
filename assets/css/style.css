@@ -6,13 +6,17 @@
   border-bottom: 3px black solid;
 }
 
+#triviatitle {
+  font-family: 'Anton', sans-serif;
+}
+
 body {
   background-image: url("../images/marvel.png");
   background-size: cover;
 }
 
 .main-button-container {
-  margin-top: 175px;
+  margin-top: 75px;
   max-width: 610px;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +27,7 @@ body {
 }
 
 .answer:hover {
-  background: pink;
+  background: lightseagreen;  
 }
 
 .answer {
@@ -33,6 +37,7 @@ body {
   padding-left: 14px;
   background-color: white;
   border-radius: 4px;
+  font-family: 'Anton', sans-serif;
 }
 
 .img-wrong {
@@ -49,9 +54,4 @@ body {
 
 .summary-correct {
   margin-top: 40px;
-}
-
-body {
-  background-color: #DD0506;
-  color: white;
 }
