@@ -1,0 +1,57 @@
+.jumbotron {
+  background-color: silver;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-bottom: 3px black solid;
+}
+
+body {
+  background-image: url("../images/marvel.png");
+  background-size: cover;
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: pink;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+body {
+  background-color: #DD0506;
+  color: white;
+}
